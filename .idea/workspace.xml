@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2e3ff21-00f1-4239-aa21-74da4edcdcbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Machine Learning Sentiment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine Learning Sentiment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/main.py" afterDir="false" />
     </list>
@@ -46,18 +43,23 @@
     <session id="1605757245">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1893" />
+          <entry key="py" value="2560" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1893" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="2560" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -82,13 +84,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="386">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding>
-                <element signature="e#168#178#0" expanded="true" />
-                <marker date="1541982620498" expanded="true" signature="119:184" ph="..." />
-                <marker date="1541982620498" expanded="true" signature="237:313" ph="..." />
-                <marker date="1541982620498" expanded="true" signature="831:837" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1542139261936" expanded="true" signature="284:325" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +202,14 @@
       <option name="presentableId" value="Default" />
       <updated>1541778259419</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementation of Naive Bayes Classifier - needs training to produce a pickle file">
+      <created>1541985927620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541985927620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -230,6 +238,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementation of Naive Bayes Classifier - needs training to produce a pickle file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Naive Bayes Classifier - needs training to produce a pickle file" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -240,13 +252,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="386">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
-            <element signature="e#168#178#0" expanded="true" />
-            <marker date="1541982620498" expanded="true" signature="119:184" ph="..." />
-            <marker date="1541982620498" expanded="true" signature="237:313" ph="..." />
-            <marker date="1541982620498" expanded="true" signature="831:837" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1542139261936" expanded="true" signature="284:325" ph="..." />
           </folding>
         </state>
       </provider>
